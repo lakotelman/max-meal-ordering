@@ -7,7 +7,7 @@ return (
     <>
 <header className={styles.header}>
 <h1>Dinin'</h1>
-<HeaderCartButton/>
+<HeaderCartButton onClick={props.onShowCart}/>
 </header>
 <div className={styles["main-image"]}><img src={mealsImage} alt="A table with delicious food"/></div>
     </>
